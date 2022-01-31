@@ -1,0 +1,42 @@
+*{
+    font-family: sans-serif;
+}
+.head{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(13, 131, 167);
+    margin-top: 20px;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    resize: vertical;
+    padding: 15px;
+}
+
+.fn{
+    margin-top: 100px;
+}
+#subject{
+    padding: 50px;
+}
+/* label[for=fname,lname]{
+    font-weight: bold;
+} */
+input[type=submit]{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+input[type=submit]:hover{
+    background-color: #008554;
+}
